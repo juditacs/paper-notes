@@ -1,40 +1,41 @@
 # Word and morpheme segmentation
 
-# Introduction to the Shared Tasks on Cross-lingualWord Segmentation and Morpheme Segmentation
-(#liu:2016)
+These papers are related to word and morpheme segmentation.
 
-## Chao-Hong Liu and Qun Liu
+## Introduction to the Shared Tasks on Cross-lingual Word Segmentation and Morpheme Segmentation
+
+### Chao-Hong Liu and Qun Liu
 
 Describes the  MLP 2017 shared task
 
-### MLP 2017 shared task
+#### MLP 2017 shared task
 
 1. morpheme segmentation: Amharic, Basque, Farsi, Filipino, Finnish, Kazakh, Marathi, and Uyghur
 2. word segmentation: Japanese, traditional Chinese and Vietnamese
 
-### Dataset
+#### Dataset
 
-#### Notation
+##### Notation
 
 - `\\`: morpheme boundary
 - ` `: word boundary
 - `_`: 'used to indicate if a ‘word’ was concate- nated with its previous word as a morpheme' (Vietnamese only)
 
-#### Preprocessing
+##### Preprocessing
 
 - the Amharic corpus contained annotation for 'morpheme clusters' rather than morphemes
 - the Filipino corpus contained prefix, root, infix, suffix information too
 - all converted to the same format
 - reviewed by language experts
 
-### Baselines
+#### Baselines
 
 - morpheme segmentation: Morfessor v. 2.0
 - Japanese: MeCab v. 0.996 with ipadic 102 dictionary
 - Chinese: Longest-word-first (LWF)
 - Vietnamese: Learnt-rules (L-Rules)
 
-### Results
+#### Results
 
 - evaluation: F1 on boundary position detection
 - 4 submissions
@@ -45,9 +46,9 @@ Describes the  MLP 2017 shared task
 - CRF for Chinese (Sutantayawalee and Supnithi, 2017)
 
 
-# Cross-lingualWord Segmentation andMorpheme Segmentation as Sequence Labelling
+## Cross-lingual Word Segmentation and Morpheme Segmentation as Sequence Labelling
 
-## Yan Shao
+### Yan Shao
 
 MLP 2017, highest ranking solution for all languages.
 Used biRNN-CRF and ensemble decoding.
@@ -56,7 +57,7 @@ Used biRNN-CRF and ensemble decoding.
 [Paper](https://arxiv.org/pdf/1709.03756)
 [Presentation video](https://www.youtube.com/watch?v=XQC_kxkk4rM)
 
-### Feature extraction
+#### Feature extraction
 
 - character-level sequential tagging
 - for each character ($c_i$):
@@ -66,7 +67,7 @@ Used biRNN-CRF and ensemble decoding.
 - BIES tagging + X for word boundaries (if available)
 - sentence level instead of word level
 
-### Experiments and results
+#### Experiments and results
 
 - they used the same hyperparameters for each language
 - trained for 30 epochs, adopt the best epoch after the model is trained for at least 5 epochs

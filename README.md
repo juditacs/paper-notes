@@ -54,5 +54,6 @@ This paper started a flamewar between Yoav Goldberg and Yann Lecun.
 
 ## Word and morpheme segmentation
 
-[Liu and Liu, 2017. Introduction to the Shared Tasks on Cross-lingualWord Segmentation and Morpheme Segmentation](segmentation.md#Introduction-to-the-Shared-Tasks-on-Cross-lingualWord-Segmentation-and-Morpheme-Segmentation)
+[Liu and Liu, 2017. Introduction to the Shared Tasks on Cross-lingualWord Segmentation and Morpheme Segmentation](segmentation.md#introduction-to-the-shared-tasks-on-cross-lingual-word-segmentation-and-morpheme-segmentation)
 
+[Shao, 2017. Cross-lingual Word Segmentation and Morpheme Segmentation as Sequence Labelling](segmentation.md#cross-lingual-word-segmentation-and-morpheme-segmentation-as-sequence-labelling)
