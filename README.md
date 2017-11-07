@@ -17,4 +17,4 @@
 
 ## GANs
 
-[Adversarial Generation of Natural Language](gan#adversarial-generation-of-natural-language)
+[Adversarial Generation of Natural Language](gan.md#adversarial-generation-of-natural-language)
