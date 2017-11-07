@@ -52,46 +52,7 @@ This paper started a flamewar between Yoav Goldberg and Yann Lecun.
   2. interpolate LM probability with their inflection generation model and use this as the loss function
 - dataset
 
-# Introduction to the Shared Tasks on Cross-lingualWord Segmentation and Morpheme Segmentation
+## Word and morpheme segmentation
 
-## Chao-Hong Liu and Qun Liu
-
-Describes the  MLP 2017 shared task
-
-### MLP 2017 shared task
-
-1. morpheme segmentation: Amharic, Basque, Farsi, Filipino, Finnish, Kazakh, Marathi, and Uyghur
-2. word segmentation: Japanese, traditional Chinese and Vietnamese
-
-### Dataset
-
-#### Notation
-
-- `\\`: morpheme boundary
-- ` `: word boundary
-- `_`: 'used to indicate if a ‘word’ was concate- nated with its previous word as a morpheme' (Vietnamese only)
-
-#### Preprocessing
-
-- the Amharic corpus contained annotation for 'morpheme clusters' rather than morphemes
-- the Filipino corpus contained prefix, root, infix, suffix information too
-- all converted to the same format
-- reviewed by language experts
-
-### Baselines
-
-- morpheme segmentation: Morfessor v. 2.0
-- Japanese: MeCab v. 0.996 with ipadic 102 dictionary
-- Chinese: Longest-word-first (LWF)
-- Vietnamese: Learnt-rules (L-Rules)
-
-### Results
-
-- evaluation: F1 on boundary position detection
-- 4 submissions
-- BiRNN-CRF systems performed best for all languages (Shao, 2017)
-  - baseline outperformed significantly
-- unsupervised segmentation (Amharic, Basque, Farsi, Finnish, Uygur) also outperform the baseline (Passban et al., 2017)
-- trigram-based for Japanese (No, 2017)
-- CRF for Chinese (Sutantayawalee and Supnithi, 2017)
+[Liu and Liu, 2017. Introduction to the Shared Tasks on Cross-lingualWord Segmentation and Morpheme Segmentation](segmentation#Introduction-to-the-Shared-Tasks-on-Cross-lingualWord-Segmentation-and-Morpheme-Segmentation)
 
