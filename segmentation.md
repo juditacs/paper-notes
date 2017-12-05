@@ -4,7 +4,7 @@ These papers are related to word and morpheme segmentation.
 
 ## Introduction to the Shared Tasks on Cross-lingual Word Segmentation and Morpheme Segmentation
 
-### Chao-Hong Liu and Qun Liu
+### Chao-Hong Liu and Qun Liu, 2017
 
 Describes the  MLP 2017 shared task
 
@@ -19,7 +19,7 @@ Describes the  MLP 2017 shared task
 
 - `\\`: morpheme boundary
 - ` `: word boundary
-- `_`: 'used to indicate if a ‘word’ was concate- nated with its previous word as a morpheme' (Vietnamese only)
+- `_`: 'used to indicate if a ‘word’ was concatenated with its previous word as a morpheme' (Vietnamese only)
 
 ##### Preprocessing
 
@@ -48,7 +48,7 @@ Describes the  MLP 2017 shared task
 
 ## Cross-lingual Word Segmentation and Morpheme Segmentation as Sequence Labelling
 
-### Yan Shao
+### Yan Shao, 2017
 
 MLP 2017, highest ranking solution for all languages.
 Used biRNN-CRF and ensemble decoding.
@@ -76,3 +76,13 @@ Used biRNN-CRF and ensemble decoding.
   - transition and conditional scores are averaged over the models
   - slight improvement over the baseline
 - 90+ F-scores for all languages except Basque and Farsi, both had small training sets
+
+## A Simple Multi-language Word Segmentation System with Conditional Random Field
+
+### Vipas Sutantayawalee and Thepchai Supnithi, 2017
+
+A CRF-based segmentation method with character n-gram features.
+Experiments on Thai and Traditional Chinese.
+
+- they have a large Thai dataset (160k sentences), but it is not clear which dataset it is
+- Chinese results are ok (0.76 F-score), Thai results are very impressive (0.988 F-score)
