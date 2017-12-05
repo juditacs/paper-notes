@@ -60,7 +60,7 @@ Used biRNN-CRF and ensemble decoding.
 #### Feature extraction
 
 - character-level sequential tagging
-- for each character ($$c_i$$):
+- for each character ($c_i$):
   1. the character itself - 50 dim
   2. the bigram $c_{i-1},c_i$ (not both bigrams, according to the video) - 50 dim
   3. the trigram $c_{i-2},c_{i-1},c_i$  - 50 dim
