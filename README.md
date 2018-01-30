@@ -2,6 +2,8 @@
 
 ## GAN
 
+[Gomez et al., 2018. Unsupervised Cipher Cracking using Discrete GANs](gan.md#unsupervised-cipher-cracking-using-discrete-gans)
+
 [Rajeswar et al., 2017. Adversarial Generation of Natural Language](gan.md#adversarial-generation-of-natural-language)
 
 ## Morphological reinflection
@@ -9,6 +11,8 @@
 [Faruqui et al., 2016. Morphological Inflection Generation Using Character Sequence to Sequence Learning](reinflection.md#morphological-inflection-generation-using-character-sequence-to-sequence-learning)
 
 ## Neural networks in general
+
+[Weiss et al., 2017. Extracting Automata from Recurrent Neural Networks Using Queries and Counterexamples](general_neural_networks.md#extracting-automata-from-recurrent-neural-networks-using-queries-and-counterexamples)
 
 [Zemel and Mozer, 2001. Localist Attractor networks](general_neural_networks.md#localist-attractor-networks)
 

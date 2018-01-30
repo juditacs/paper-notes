@@ -3,6 +3,16 @@
 These papers are related to neural networks in general.
 I also put old-school neural net stuff here.
 
+## Extracting Automata from Recurrent Neural Networks Using Queries and Counterexamples
+
+### Weiss et al., 2017
+
+They extract automata from trained RNNs.
+
+The expression 'as an abuse of notation' appears at least 3 times.
+
+TODO
+
 ## Localist Attractor networks
 
 ### Zemel and Mozer, 2001
