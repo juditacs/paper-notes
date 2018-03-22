@@ -8,6 +8,8 @@
 
 ## Morphological reinflection
 
+[Aharoni and Goldberg, 2017. Morphological Inflection Generation with Hard Monotonic Attention](reinflection.md#morphological-inflection-generation-with-hard-monotonic-attention)
+
 [Faruqui et al., 2016. Morphological Inflection Generation Using Character Sequence to Sequence Learning](reinflection.md#morphological-inflection-generation-using-character-sequence-to-sequence-learning)
 
 ## Neural networks in general
