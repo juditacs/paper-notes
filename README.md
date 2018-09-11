@@ -4,6 +4,8 @@
 
 [Gomez et al., 2018. Unsupervised Cipher Cracking using Discrete GANs](gan.md#unsupervised-cipher-cracking-using-discrete-gans)
 
+[Gu et al., 2018. DialogWAE: Multimodal Response Generation with Conditional Wasserstein Auto-Encoder](gan.md#dialogwae:-multimodal-response-generation-with-conditional-wasserstein-auto-encoder)
+
 [Rajeswar et al., 2017. Adversarial Generation of Natural Language](gan.md#adversarial-generation-of-natural-language)
 
 ## Morphological reinflection
@@ -13,6 +15,8 @@
 [Faruqui et al., 2016. Morphological Inflection Generation Using Character Sequence to Sequence Learning](reinflection.md#morphological-inflection-generation-using-character-sequence-to-sequence-learning)
 
 ## Neural networks in general
+
+[Tang et al., 2018. Why Self-Attention? A Targeted Evaluation of Neural Machine Translation Architectures](general_neural_networks.md#why-self-attention?-a-targeted-evaluation-of-neural-machine-translation-architectures)
 
 [Weiss et al., 2017. Extracting Automata from Recurrent Neural Networks Using Queries and Counterexamples](general_neural_networks.md#extracting-automata-from-recurrent-neural-networks-using-queries-and-counterexamples)
 
