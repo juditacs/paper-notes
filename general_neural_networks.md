@@ -3,6 +3,43 @@
 These papers are related to neural networks in general.
 I also put old-school neural net stuff here.
 
+## Why Self-Attention? A Targeted Evaluation of Neural Machine Translation Architectures
+
+### Tang et al., 2018
+
+[arXiv](https://arxiv.org/abs/1808.08946)
+
+- Transformer and CNN outperform traditional RNN in machine translation
+- argued: this is due to shorter network paths make them better at modeling
+  long-range dependencies
+- has not been tested empirically, **main contribution of the paper**
+- difficult to attribute architectural changes to improvement in BLEU
+- their hypothesis: CNN and Transformer are good semantic feature extractors,
+  rather than better at long-range dependencies
+- contrastive evaluation of NMT tasks (*bad* examples should score lower than
+  *good* examples)
+  1. subject-verb agreement
+  2. word sense disambiguation
+  3. (NMT BLEU - mostly for sanity checking)
+
+#### Models
+
+1. RNNS2S with attention: exact formulation for attention is not given
+2. ConvS2S
+3. Transformer
+4. RNN-bideep: SOTA for NMT with RNN
+
+#### Results
+
+1. NMT BLEU/PPL: Transformer best, ConvS2S worst
+2. subject-verb agreement: ConvS2S is much worse than the others and the
+   difference gets larger as the distance increases
+3. WSD: Transformer is far better than the others - because it extracts
+   semantic features?
+
+- Extra model: TransRNN (Transformer encoder, RNN decoder)
+- tested on WSD, Transformer is better, RNNS2S is worse -> decoder affects WSD
+
 ## Extracting Automata from Recurrent Neural Networks Using Queries and Counterexamples
 
 ### Weiss et al., 2017
